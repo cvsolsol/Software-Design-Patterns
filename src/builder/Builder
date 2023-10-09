@@ -1,0 +1,17 @@
+package builder;
+
+
+import componentes.Almohadilla;
+import componentes.Cordones;
+import componentes.Tacon;
+import instanceEnum.TipoCalzado;
+
+public interface Builder {
+
+    void setTipoCalzado(TipoCalzado tipoCalzado);
+    void setCordones(Cordones cordones);
+    void setTacon(Tacon tacon);
+    void setAlmohadilla(Almohadilla almohadilla);
+    void setVelcro(Boolean velcro);
+
+}
